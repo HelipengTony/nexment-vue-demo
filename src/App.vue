@@ -2,7 +2,7 @@
   <div id="app">
     <div class="title-div">
       <div class="div-1">
-        <img src="https://i.loli.net/2020/08/18/fzRDFIx7315GZbs.png" />
+        <img src="https://i.loli.net/2020/08/18/qHVT3oi2v7AtMR6.png" />
         <h1>
           Nexment-Vue
         </h1>
