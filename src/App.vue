@@ -42,15 +42,15 @@
     <div class="switch-div">
       <button
         :class="'btn-left ' + (switchStatus ? 'btn-select' : '')"
-        @click="toggleSwitch"
+        @click="changeConfig"
       >
-        Vue.js
+        Modal 弹窗
       </button>
       <button
         :class="'btn-right ' + (!switchStatus ? 'btn-select' : '')"
-        @click="toggleSwitch"
+        @click="changeConfig"
       >
-        Web Component
+        List 列表
       </button>
     </div>
     <div class="nexment-div">
@@ -66,6 +66,7 @@
           appid="6Kcb9HB1iOR87HUbAvnMyUER-gzGzoHsz"
           pagekey="vueDemoPage"
           enablelinkinput="true"
+          enableReplyListModal="true"
         ></nexment-container>
       </div>
     </div>
@@ -85,6 +86,7 @@ export default class App extends Vue {
   configs = {
     pageKey: "vueDemoPage",
     enableLinkInput: true,
+    enableReplyListModal: true,
     leancloud: {
       appId: "6Kcb9HB1iOR87HUbAvnMyUER-gzGzoHsz",
       appKey: "zf3gAf9CGIHLL8Crctb0sJLV",
@@ -95,7 +97,8 @@ export default class App extends Vue {
       email: "he@holptech.com",
     },
   };
-  toggleSwitch() {
+  changeConfig() {
+    this.configs.enableReplyListModal = !this.configs.enableReplyListModal;
     this.switchStatus = !this.switchStatus;
   }
 }
