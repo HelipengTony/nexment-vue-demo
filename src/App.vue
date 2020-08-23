@@ -54,21 +54,7 @@
       </button>
     </div>
     <div class="nexment-div">
-      <div v-if="switchStatus">
-        <NexmentContainer :config="configs" />
-      </div>
-      <div v-if="!switchStatus">
-        <nexment-container
-          email="he@holptech.com"
-          name="TonyHe"
-          serverurl="https://leancloud.ouorz.com"
-          appkey="zf3gAf9CGIHLL8Crctb0sJLV"
-          appid="6Kcb9HB1iOR87HUbAvnMyUER-gzGzoHsz"
-          pagekey="vueDemoPage"
-          enablelinkinput="true"
-          enableReplyListModal="true"
-        ></nexment-container>
-      </div>
+      <NexmentContainer :config="configs" />
     </div>
   </div>
 </template>
