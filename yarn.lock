@@ -5595,6 +5595,13 @@ neo-async@^2.5.0, neo-async@^2.6.0, neo-async@^2.6.1:
   resolved "https://registry.npmjs.org/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
+nexment-vue@^0.0.144:
+  version "0.0.144"
+  resolved "https://registry.npmjs.org/nexment-vue/-/nexment-vue-0.0.144.tgz#f672f888a99844b8f5416b914dfd045c34219070"
+  integrity sha512-2GJc/4XaQzWsaC/E0tmuu19rJRMv6pEhvElpXaKm7b2AyGOLbhP4bK4OAocSt46x5iYwNDZFRNV12lejEdDGXA==
+  dependencies:
+    vue "^2.6.11"
+
 nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://registry.npmjs.org/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
